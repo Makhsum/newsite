@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #333;
+    border-bottom: 4px  solid silver;
+    color: #fff;
+    margin-bottom: 50px;
+    float: left;
+    }
+#footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #333;
+    border-top: 4px  solid silver;
+    color: #fff;
+    margin-top: 50px;
+    float: left;
+}
+#main{
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border: 1px solid silver;
+    padding: 20px 2.5%;
+    position: relative;
+    /*margin-top: 50px;*/
+    margin-bottom: 0px;
+    float: left;
+    
+}
+#aside{
+    width: 20%;
+    background: #fafafa;
+    border: 1px solid silver;
+    padding: 20px 2.5%;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    bottom: -10px;
+}
+#pilus{
+    background: red;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    margin-top: 22px;
+   
+    
+}
+#pilus:hover {
+    background: silver;
+    opacity: 70%;
+}
+.abdu {
+    display: block;
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.nazad {
+    display: block;
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+div a:hover{
+    background: aliceblue;
+    color: coral;
+    border-radius: 7px;
+    
+}
+.header{
+    background: silver;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}

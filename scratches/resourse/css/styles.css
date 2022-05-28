@@ -1,0 +1,10 @@
+#img{
+    background: url("coolimage.jpg") no-repeat center top;
+    height: 500px;
+    background-size: cover;
+  
+    background-attachment: fixed;
+}
+#div{
+    height: 2000px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#f2f1f1;
+}
+.menu{
+    list-style:none;
+    display: block;
+    height: 50px;
+    background: #887f7f;
+    box-shadow: silver;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    z-index: 2;
+}
+ul li {
+    display: block;
+    float: right;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+ul li:hover{
+    background-color: silver;
+    color:#fdf0f0;
+    cursor: pointer;
+}
+#image{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+#image:hover{
+    color: brown;
+    scale: 9%;
+}
+
+#money{
+    margin: 0 5px 5px 0;
+    float: left;
+}
+a{
+   color: black;
+}

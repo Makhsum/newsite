@@ -1,0 +1,33 @@
+.link{
+    text-decoration: none;
+    color: red;
+}
+.link:hover{
+    text-decoration:underline;
+    color: coral;
+    cursor: pointer;
+}
+
+
+.link:active{
+    text-decoration: line-through;
+    color: aqua;
+}
+.link:visited{
+    color: black;
+}
+input{
+    color:blue ;
+}
+input:focus{
+    color: brown;
+}
+div p::first-letter {
+    color: #d2691e;
+}
+
+div p::after{
+    content: 'MEGOM';
+    font-size: 72px;
+    color: red;
+}
